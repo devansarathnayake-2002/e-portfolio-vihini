@@ -371,9 +371,7 @@ export default function InternshipEPortfolioPage() {
 
             <div className="mt-4 grid grid-cols-2 gap-4">
               <StatCard label="Internship Period" value={student.period} />
-              <StatCard label="Key Tasks" value={String(keyTasks.length).padStart(2, "0")} />
               <StatCard label="Skill Areas" value={String(skillAreas.length).padStart(2, "0")} />
-              <StatCard label="Avg. Progress" value={`${averageProgress}%`} />
             </div>
           </aside>
         </div>
