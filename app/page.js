@@ -65,35 +65,30 @@ const keyTasks = [
     description:
       "I supported customer-reported issues by understanding the problem, checking system behaviour, testing possible causes, and communicating updates clearly.",
     skills: "Communication, problem-solving, emotional intelligence, responsibility",
-    evidence: "Redacted support ticket screenshots, issue summaries, customer reply samples",
   },
   {
     title: "ERP Configuration Testing",
     description:
       "I tested ERP system configurations to check whether the system worked according to customer requirements and business process needs.",
     skills: "Attention to detail, technical understanding, punctuality, teamwork",
-    evidence: "Testing screenshots, configuration notes, test checklists",
   },
   {
     title: "Documentation Preparation",
     description:
       "I prepared documents explaining issues, solutions, configuration steps, pending items, and customer support updates.",
     skills: "Written communication, impression management, responsibility",
-    evidence: "Issue reports, user guides, PDF documents, screenshots",
   },
   {
     title: "Customer Communication",
     description:
       "I communicated with customers using professional messages and emails to provide updates, request confirmations, and explain solutions.",
     skills: "Professional communication, patience, emotional intelligence",
-    evidence: "Redacted email samples, reply messages, confirmation messages",
   },
   {
     title: "Implementation Support",
     description:
       "I supported implementation-related activities by assisting with system setup, testing business flows, and coordinating with relevant teams.",
     skills: "Teamwork, leadership, time management, problem-solving",
-    evidence: "Implementation notes, meeting notes, testing records",
   },
 ];
 
@@ -104,7 +99,7 @@ const skillAreas = [
     summary:
       "I improved my confidence and responsibility by learning and practicing Odoo modules such as Purchase, Sales, CRM, Inventory, and POS. I also became more independent in completing assigned tasks.",
     evidence: [
-      { label: "April and May timesheets", url: "https://drive.google.com/drive/folders/1TrHrof43tynuVggWGF2betaEmpwUWdeq?usp=sharing" },
+      { label: "Timesheets", url: "https://drive.google.com/drive/folders/1TrHrof43tynuVggWGF2betaEmpwUWdeq?usp=sharing" },
       { label: "Customer issue screenshots", url: "https://drive.google.com/drive/folders/1owlPjkC10DHag5jRIbT0R4QFoP8eVQuA?usp=sharing" },
       { label: "Email/message samples", url: "https://drive.google.com/drive/folders/1ZJoqDCx4evrfuB_sI5IQCQGXnXG6Yr7l?usp=sharing" },
     ],
@@ -126,7 +121,7 @@ const skillAreas = [
     summary:
       "I maintained timesheet records and completed assigned tasks such as testing, documentation, training, and customer issue follow-ups within the given time.",
     evidence: [
-      { label: "April and May timesheets", url: "https://drive.google.com/drive/folders/1TrHrof43tynuVggWGF2betaEmpwUWdeq?usp=sharing" },
+      { label: "Timesheets", url: "https://drive.google.com/drive/folders/1TrHrof43tynuVggWGF2betaEmpwUWdeq?usp=sharing" },
       { label: "Task records", url: "https://drive.google.com/drive/folders/15YMzj_vMSZD2EwguqiM93EgH0rU9zYeg?usp=sharing" },
       { label: "Work logs", url: "https://drive.google.com/drive/folders/1TrHrof43tynuVggWGF2betaEmpwUWdeq?usp=sharing" },
     ],
@@ -148,7 +143,6 @@ const skillAreas = [
     summary:
       "I worked with supervisors, internal team members, and Odoo Technical Support to solve customer issues and complete support-related work.",
     evidence: [
-      { label: "Team discussion records", url: "https://drive.google.com/drive/folders/15YMzj_vMSZD2EwguqiM93EgH0rU9zYeg" },
       { label: "Support communication screenshots", url: "https://drive.google.com/drive/folders/1owlPjkC10DHag5jRIbT0R4QFoP8eVQuA?usp=sharing" },
       { label: "Timesheets", url: "https://drive.google.com/drive/folders/1TrHrof43tynuVggWGF2betaEmpwUWdeq?usp=sharing" },
     ],
@@ -171,7 +165,6 @@ const skillAreas = [
       "I developed positive attitudes and values by being responsible, respectful, and willing to learn during my internship. I also participated in company activities such as donations, which helped me understand the importance of kindness, teamwork, and social responsibility in the workplace.",
     evidence: [
       { label: "Company activity photos", url: "https://drive.google.com/drive/folders/1nyJt4ijxgixBj1G11KmmXq-J6wX1LGCT?usp=sharing" },
-      { label: "Donation message/email", url: "https://drive.google.com/drive/folders/1ZJoqDCx4evrfuB_sI5IQCQGXnXG6Yr7l?usp=sharing" },
       { label: "Supervisor feedback", url: "https://drive.google.com/drive/folders/1W1RI7wqAB2WaRwedyKOxvtxoMxxVCm5b?usp=sharing" },
     ],
   },
@@ -183,7 +176,6 @@ const skillAreas = [
     evidence: [
       { label: "Awurudu festival photos", url: "https://drive.google.com/drive/folders/1nyJt4ijxgixBj1G11KmmXq-J6wX1LGCT?usp=sharing" },
       { label: "Company event photos", url: "https://drive.google.com/drive/folders/1nyJt4ijxgixBj1G11KmmXq-J6wX1LGCT?usp=sharing" },
-      { label: "Event announcement/message", url: "https://drive.google.com/drive/folders/1owlPjkC10DHag5jRIbT0R4QFoP8eVQuA?usp=sharing" },
     ],
   },
 ];
@@ -465,12 +457,6 @@ export default function InternshipEPortfolioPage() {
                   Skills Developed
                 </p>
                 <p className="mt-2 text-sm leading-6 text-neutral-700">{task.skills}</p>
-              </div>
-              <div className="mt-4 rounded-2xl border border-neutral-200 bg-neutral-50 p-4">
-                <p className="text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
-                  Evidence
-                </p>
-                <p className="mt-2 text-sm leading-6 text-neutral-700">{task.evidence}</p>
               </div>
             </article>
           ))}
