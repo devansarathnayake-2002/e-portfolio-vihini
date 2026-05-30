@@ -324,7 +324,7 @@ export default function InternshipEPortfolioPage() {
               <div className="text-center">
                 <p className="text-sm text-neutral-500">Student Information</p>
                 <h2 className="mt-2 text-4xl font-semibold tracking-tight">{student.shortName}</h2>
-                <div className="relative mx-auto mt-5 h-72 w-72 overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-50">
+                <div className="relative mx-auto mt-5 h-72 w-72 overflow-hidden rounded-2xl bg-neutral-50">
                   <Image
                     src="/Vihini Devansa.jpeg"
                     alt="Vihini Devansa"
@@ -582,7 +582,7 @@ export default function InternshipEPortfolioPage() {
                   </div>
                   <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">
                     <p className="text-xs font-medium uppercase tracking-[0.22em] text-[#9a6a00]">Designation</p>
-                    <p className="mt-2 text-sm text-neutral-700">To be added</p>
+                    <p className="mt-2 text-sm text-neutral-700">Senior Implementation Engineer</p>
                   </div>
                   <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">
                     <p className="text-xs font-medium uppercase tracking-[0.22em] text-[#9a6a00]">Company</p>
@@ -590,11 +590,9 @@ export default function InternshipEPortfolioPage() {
                   </div>
                   <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">
                     <p className="text-xs font-medium uppercase tracking-[0.22em] text-[#9a6a00]">Feedback</p>
-                    <p className="mt-2 text-sm text-neutral-700">To be added after supervisor confirmation</p>
-                  </div>
-                  <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">
-                    <p className="text-xs font-medium uppercase tracking-[0.22em] text-[#9a6a00]">Signature / Confirmation</p>
-                    <p className="mt-2 text-sm text-neutral-700">To be added</p>
+                    <p className="mt-2 text-sm leading-7 text-neutral-700">
+                      Vihini showed a genuine interest in learning and adapted well to the professional work environment at Centrics Business Solutions (Pvt) Ltd. During her internship, she handled assigned tasks with care and responsibility, especially in customer support, testing, documentation, and communication. She was punctual, cooperative, and respectful in her interactions with team members, and she showed steady improvement in confidence, problem-solving, and professional communication throughout the training period. Overall, her attitude toward work was positive, and her contribution to the team was appreciated.
+                    </p>
                   </div>
                 </div>
               </article>
